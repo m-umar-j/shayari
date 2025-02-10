@@ -1,3 +1,9 @@
+---
+title: shayari
+app_file: app.py
+sdk: gradio
+sdk_version: 5.15.0
+---
 # Shayari Search App
 ### Semantic search for poetry
 
