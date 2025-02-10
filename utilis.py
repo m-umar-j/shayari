@@ -15,8 +15,6 @@ MISTRAL_API_KEY=os.getenv("MISTRAL_API_KEY")
 TOGETHER_API=os.getenv("TOGETHER_API")
 COHERE_API_KEY=os.getenv("COHERE_API_KEY")
 
-co = cohere.Client(COHERE_API_KEY)
-
 embeddings = TogetherEmbeddings(
     model="togethercomputer/m2-bert-80M-8k-retrieval",
     api_key=TOGETHER_API
