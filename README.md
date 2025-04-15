@@ -12,3 +12,4 @@ sdk_version: 5.15.0
 - Mistral LLM
 - Together Embeddings
 - Pinecone Vector DB
+- Reranking Model by Cohere
